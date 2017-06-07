@@ -19,7 +19,10 @@ public class TreeSetTest {
 						String descrB = b.getDescription();
 						return descrA.compareTo(descrB);
 					}
+private void sysout() {
+	// TODO Auto-generated method stub
 
+}
 				});
 		sortByDescription.addAll(parts);
 		System.out.println(sortByDescription);
